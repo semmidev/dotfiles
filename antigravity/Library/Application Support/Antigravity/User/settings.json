@@ -1,26 +1,114 @@
 {
-    // 🎨 VISUAL & ESTETIKA (Antigravity Optimized)
-    "editor.fontFamily": "'PlemolJP','Geist Mono', 'JetBrains Mono', 'Fira Code', monospace",
-    "editor.stickyScroll.enabled": true,
-    "editor.lineNumbers": "on",
-    "workbench.tree.indent": 16,
-    "editor.fontSize": 16,
-    "editor.lineHeight": 1.5,
-    "editor.tabSize": 4,
-    "editor.minimap.enabled": true,
-    "window.titleBarStyle": "native",
-    "workbench.editor.enablePreview": false,
-    // 🚀 SMOOTHNESS
-    "editor.cursorBlinking": "phase",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.smoothScrolling": true,
-    // 💾 FORMATTING
-    "files.autoSave": "onFocusChange",
-    "editor.formatOnSave": true,
-    "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true,
-    // 🤖 ANTIGRAVITY SPECIFIC
-    "antigravity.agent.autoExecute": false,
-    // 🎨 THEME
-    "workbench.colorTheme": "Solarized Dark",
+  // 🎨 VISUAL & ESTETIKA (Antigravity Optimized)
+  "editor.fontFamily": "'PlemolJP', 'Geist Mono', 'JetBrains Mono', 'Fira Code', monospace",
+  "editor.stickyScroll.enabled": true,
+  "editor.lineNumbers": "on",
+  "workbench.tree.indent": 16,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 1.6,
+  "editor.tabSize": 4,
+  "editor.minimap.enabled": true,
+  "window.titleBarStyle": "native",
+  "workbench.editor.enablePreview": false,
+
+  // 🚀 SMOOTHNESS
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+
+  // 💾 FORMATTING
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // 🤖 ANTIGRAVITY SPECIFIC
+  "antigravity.agent.autoExecute": false,
+
+  // 🎨 THEME
+  "workbench.colorTheme": "Gruvbox Dark Medium",
+  "workbench.iconTheme": "material-icon-theme",
+  "[proto3]": {
+    "editor.defaultFormatter": "xaver.clang-format",
+  },
+  "vs-kubernetes": {
+    "vs-kubernetes.knownKubeconfigs": [],
+    "vs-kubernetes.kubeconfig": "/Users/sammidev/Downloads/config-wsl",
+  },
+  "gitlens.graph.minimap.additionalTypes": [
+    "localBranches",
+    "stashes",
+    "remoteBranches",
+    "pullRequests",
+    "tags",
+  ],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "terminal.integrated.commandsToSkipShell": [
+    "kilo-code.new.agentManagerOpen",
+    "kilo-code.new.agentManager.showTerminal",
+    "kilo-code.new.agentManager.runScript",
+  ],
+  "faah.enabled": true,
+  "faah.monitorTerminal": true,
+  "faah.monitorDiagnostics": true,
+  "faah.diagnosticsSeverity": "error",
+  "faah.terminalDetectionMode": "either",
+  "faah.cooldownMs": 1500,
+  "faah.terminalCooldownMs": 1500,
+  "faah.diagnosticsCooldownMs": 1500,
+  "faah.patternMode": "override",
+  "faah.volumePercent": 100,
+  "faah.showVisualNotifications": false,
+  "faah.customSoundPath": "/Users/sammidev/Downloads/hey-antek-antek-asing-prabowo.mp3",
+  "faah.quietHoursEnabled": false,
+  "faah.quietHoursStart": "22:00",
+  "faah.quietHoursEnd": "07:00",
+  "faah.excludePresetIds": [],
+  "faah.patterns": [
+    "\\berror\\b",
+    "\\bfailed\\b",
+    "\\bfailure\\b",
+    "\\bfatal\\b",
+    "\\bexception\\b",
+    "\\bcritical\\b",
+    "\\berr(or)?[:!\\]]",
+    "\\buncaught\\b",
+    "UnhandledPromiseRejection",
+    "Traceback \\(most recent call last\\):",
+    "\\bsyntaxerror\\b",
+    "\\btypeerror\\b",
+    "\\breferenceerror\\b",
+    "\\brangeerror\\b",
+    "\\bmodule\\s+not\\s+found\\b",
+    "\\bcannot\\s+find\\s+module\\b",
+    "\\bno\\s+module\\s+named\\b",
+    "\\bsegmentation\\s+fault\\b",
+    "\\bcore\\s+dumped\\b",
+    "\\bpanic:|\\bpanicked\\s+at\\b",
+    "^\\s*caused\\s+by:",
+    "\\bpermission\\s+denied\\b",
+    "\\baccess\\s+denied\\b",
+    "\\bcommand\\s+not\\s+found\\b",
+    "\\btimeout(?:\\s+exceeded)?\\b",
+    "\\bconnection\\s+(?:refused|reset|timed\\s*out)\\b",
+    "\\bhttp\\s+5\\d\\d\\b",
+  ],
+  "faah.excludePatterns": [
+    "^\\[[^\\]]+\\s[0-9a-f]{7,40}\\]\\s(?:feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(?:\\([^)]+\\))?!?:\\s.+$",
+    "^(?:feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(?:\\([^)]+\\))?!?:\\s.+$",
+  ],
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "gopls": {
+    "build.buildFlags": ["-tags=integration"],
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "explorer.confirmDragAndDrop": false,
+  "python.languageServer": "Default",
+  "[php]": {
+    "editor.defaultFormatter": "laravel.vscode-laravel",
+  },
 }
